@@ -1,0 +1,81 @@
+		.logo{
+			font-family: Goudy Old Style;
+			font-size: 30px;
+		}
+		.logo1{
+			font-family: Goudy Old Style;
+			font-size: 25px;
+		}
+		h2,h4{
+			font-family: cursive;
+		}
+		h3,h1{
+			font-family: monospace;
+		}
+		hr{
+			width: 80%;
+			margin:auto;
+			padding: 10px;
+		}
+		.banners{
+			background-color: #ffffff;
+			background-opacity: 0.3;
+			background-image:  radial-gradient(#ff07bd 2px, transparent 2px), radial-gradient(#ff07bd 2px, #ffffff 2px);
+			background-size: 100px 100px;
+			background-position: 0 0,20px 20px;
+			height: 90vh;	
+        	transition: all 3s;
+        }
+        .banners:hover{
+        	background-position: center;		
+		}
+		#projects,#feedback,#resources{
+			      background: linear-gradient(to left, #c9ffbf, #ffafbd); 
+		}
+		
+		.button{
+			pointer-events: none;
+		}
+		a{
+			text-decoration: none;
+			color: black;
+		}
+		a:hover{
+		color: grey;
+
+		}
+		.cardhovers:hover{
+		box-shadow: 0px 7px 5px 5px rgba(0,0,0,0.3);
+		}		 
+		 .images{		 	
+		 	align-self: center;
+		 	width:75%;
+		 	border-radius: 50%;
+		 	box-shadow: 10px 10px 5px darkgrey;
+		 }		
+
+		 /*Projects Page*/
+		 #projects1{
+			  background: linear-gradient(to right, #c33764, #1d2671);
+		}
+
+		 /*Resources Page*/
+		 .banners1{
+		 	height: 100vh;
+		 }
+
+		/* Update Page */
+		.myimg{		 	
+		 	width:50%;
+		 	border-radius: 50%;
+		 	box-shadow: 10px 10px 5px darkgrey;
+		
+		}
+		
+		.span1{
+			background-color:#ecc247;
+		}
+
+		.span2{
+			background-color: #fa2f69;	
+		}
